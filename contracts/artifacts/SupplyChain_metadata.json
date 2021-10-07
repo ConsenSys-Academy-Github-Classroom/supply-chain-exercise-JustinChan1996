@@ -1,0 +1,140 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_price",
+						"type": "uint256"
+					}
+				],
+				"name": "addItem",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "sku",
+						"type": "uint256"
+					}
+				],
+				"name": "buyItem",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "sku",
+						"type": "uint256"
+					}
+				],
+				"name": "receiveItem",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "sku",
+						"type": "uint256"
+					}
+				],
+				"name": "shipItem",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "skuCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Volumes/Data/BlockchainCourse/supply-chain-exercise/supply-chain-exercise-JustinChan1996/contracts/SupplyChain.sol": "SupplyChain"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Volumes/Data/BlockchainCourse/supply-chain-exercise/supply-chain-exercise-JustinChan1996/contracts/SupplyChain.sol": {
+			"keccak256": "0x4f5966234287b6345de9832547b2764a6aabdb4a931a3d9a1ac6b8bb5cbacfae",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://035d83f737594c5c5e234de9489fae0eb311ec40e5955f1f69689d069dd12e2b",
+				"dweb:/ipfs/QmNxnkUyueaxj7R3RBuowSmRDhX6UUsovSou8ASTsHQ9jF"
+			]
+		}
+	},
+	"version": 1
+}
